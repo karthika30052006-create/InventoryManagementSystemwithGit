@@ -102,3 +102,9 @@ while True:
 
     else:
         print("Invalid Choice")
+        def add_product(products):
+    pid = input("Enter Product ID: ")
+    name = input("Enter Product Name: ")
+    qty = int(input("Enter Quantity: "))
+    products[pid] = {"name": name, "qty": qty}
+    print("Product Added Successfully")
